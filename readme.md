@@ -1,3 +1,5 @@
 # A single page website
 
-Done during practicing HTML/CSS
+Done during HTML/CSS week.
+
+Languages used HTML/CSS.

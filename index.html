@@ -9,7 +9,7 @@
   </head>
   <body>
     <!-- top bar -->
-    <div>
+    <header>
       <!-- title -->
       <h1>Dear Beer</h1>
       <!-- navigation -->
@@ -22,38 +22,38 @@
           <li>Team</li>
         </ul>
       </nav>
-    </div>
+    </header>
     <!-- end top bar -->
+    <main>
+      <!-- splash screen -->
+      <article id="first_article">
+        <!-- heading -->
 
-    <!-- splash screen -->
-    <div>
-      <!-- heading -->
-      <h2>Dear Beer: local beer shop</h2>
-      <!-- subheading -->
-      <h3>We serve it cold</h3>
-      <!-- button -->
-      <button>Discover our beer</button>
-    </div>
-    <!-- end splash screen -->
+        <h1>Dear Beer: local beer shop</h2>
+        <!-- subheading -->
+        <h2>We serve it cold</h3>
+        <!-- button -->
+        <button class="btn">Discover our beer</button>
+      </article>
+      <!-- end splash screen -->
 
-    <!-- location -->
-    <div>
-      <!-- heading -->
-      <h2>Location</h2>
-      <!-- back to top -->
-      <a href="" target="_top"> Back to the top</a>
-      <!-- google map -->
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23945.204093686385!2d2.1472960999999997!3d41.392537600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a29991f50309%3A0xa6b60c3379db2652!2sBarcelona%20Code%20School!5e0!3m2!1ses-419!2ses!4v1660552505493!5m2!1ses-419!2ses"
-        width="600"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-      <!-- text paragraph -->
-      <section>
+      <!-- location -->
+      <section id="location">
+        <!-- heading -->
+        <h1>Location</h1>
+        <!-- back to top -->
+        <a href="" target="_top" class="links"> Back to the top</a>
+        <!-- google map -->
+        <iframe class="maps"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23945.204093686385!2d2.1472960999999997!3d41.392537600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a29991f50309%3A0xa6b60c3379db2652!2sBarcelona%20Code%20School!5e0!3m2!1ses-419!2ses!4v1660552505493!5m2!1ses-419!2ses"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <!-- text paragraph -->
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure alias
           aliquam dolorem, possimus quia in eligendi ab inventore vero nesciunt,
@@ -64,140 +64,152 @@
           est numquam?
         </p>
       </section>
-    </div>
-    <!-- end location -->
+      <!-- end location -->
 
-    <!-- gallery -->
-    <div>
-      <!-- heading -->
-      <h2>Gallery</h2>
-      <!-- back to top link -->
-      <a href="" target="_top"> Back to the top</a>
-      <!-- 3 images -->
-      <div>
-        <img src="/images/bence-boros-8T5UAV6KkZA-unsplash.jpg" alt="Beer1" />
-        <img src="/images/engin-akyurt-3ORoQEJY9LA-unsplash.jpg" alt="Beer2" />
-        <img src="/images/teo-do-rio-EUO7L470LXk-unsplash.jpg" alt="Beer3" />
-      </div>
-      <!-- 1 biger image -->
-      <div>
-        <img
-          src="/images/wil-stewart-UErWoQEoMrc-unsplash.jpg"
-          alt="Big Beer"
-        />
-      </div>
-    </div>
-    <!-- end gallery -->
+      <!-- gallery -->
+      <section>
+        <!-- heading -->
+        <h2>Gallery</h2>
+        <!-- back to top link -->
+        <a href="" target="_top" class="links"> Back to the top</a>
+        <!-- 3 images -->
+        <div>
+          <img src="/images/bence-boros-8T5UAV6KkZA-unsplash.jpg" alt="Beer1" />
+          <img
+            src="/images/engin-akyurt-3ORoQEJY9LA-unsplash.jpg"
+            alt="Beer2"
+          />
+          <img src="/images/teo-do-rio-EUO7L470LXk-unsplash.jpg" alt="Beer3" />
+        </div>
+        <!-- 1 biger image -->
+        <div>
+          <img
+            src="/images/wil-stewart-UErWoQEoMrc-unsplash.jpg"
+            alt="Big Beer"
+          />
+        </div>
+      </section>
+      <!-- end gallery -->
 
-    <!-- beer -->
-    <div>
-      <!-- heading -->
-      <h2>Beer</h2>
-      <!-- back to top link -->
-      <a href="" target="_top"> Back to the top</a>
-      <!-- section of beers -->
-      <div>
-        <h4>Diamond premium</h4>
-        <img
-          src="/images/greg-bilsland-fTRxsWn3yIc-unsplash.jpg"
-          alt="Beerlogo1"
-        />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-          distinctio dolorem natus ab doloremque voluptas at expedita dolores.
-          Minima magni velit sunt sed est voluptas. Sequi reiciendis totam
-          expedita ab!
-        </p>
+      <!-- beer -->
+      <section>
+        <!-- heading -->
+        <h2>Beer</h2>
+        <!-- back to top link -->
+        <a href="" target="_top" class="links"> Back to the top</a>
+        <!-- section of beers -->
+        <div>
+          <h4>Diamond premium</h4>
+          <img
+            src="/images/greg-bilsland-fTRxsWn3yIc-unsplash.jpg"
+            alt="Beerlogo1"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            distinctio dolorem natus ab doloremque voluptas at expedita dolores.
+            Minima magni velit sunt sed est voluptas. Sequi reiciendis totam
+            expedita ab!
+          </p>
 
-        <h4>Alabama ale</h4>
-        <img src="/images/jon-parry-BcT-eYI9kIc-unsplash.jpg" alt="Beerlogo2" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-          distinctio dolorem natus ab doloremque voluptas at expedita dolores.
-          Minima magni velit sunt sed est voluptas. Sequi reiciendis totam
-          expedita ab!
-        </p>
+          <h4>Alabama ale</h4>
+          <img
+            src="/images/jon-parry-BcT-eYI9kIc-unsplash.jpg"
+            alt="Beerlogo2"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            distinctio dolorem natus ab doloremque voluptas at expedita dolores.
+            Minima magni velit sunt sed est voluptas. Sequi reiciendis totam
+            expedita ab!
+          </p>
 
-        <h4>Pirata dark</h4>
-        <img
-          src="/images/julius-drost-_BKASXEw6uU-unsplash.jpg"
-          alt="Beerlogo3"
-        />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-          distinctio dolorem natus ab doloremque voluptas at expedita dolores.
-          Minima magni velit sunt sed est voluptas. Sequi reiciendis totam
-          expedita ab!
-        </p>
+          <h4>Pirata dark</h4>
+          <img
+            src="/images/julius-drost-_BKASXEw6uU-unsplash.jpg"
+            alt="Beerlogo3"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            distinctio dolorem natus ab doloremque voluptas at expedita dolores.
+            Minima magni velit sunt sed est voluptas. Sequi reiciendis totam
+            expedita ab!
+          </p>
 
-        <h4>Black goat</h4>
-        <img
-          src="/images/kal-visuals-jUV9UFssmC4-unsplash.jpg"
-          alt="Beerlogo4"
-        />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-          distinctio dolorem natus ab doloremque voluptas at expedita dolores.
-          Minima magni velit sunt sed est voluptas. Sequi reiciendis totam
-          expedita ab!
-        </p>
+          <h4>Black goat</h4>
+          <img
+            src="/images/kal-visuals-jUV9UFssmC4-unsplash.jpg"
+            alt="Beerlogo4"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            distinctio dolorem natus ab doloremque voluptas at expedita dolores.
+            Minima magni velit sunt sed est voluptas. Sequi reiciendis totam
+            expedita ab!
+          </p>
 
-        <h4>Woodland lager</h4>
-        <img
-          src="/images/onur-binay-zfatWM_FbM4-unsplash.jpg"
-          alt="Beerlogo5"
-        />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-          distinctio dolorem natus ab doloremque voluptas at expedita dolores.
-          Minima magni velit sunt sed est voluptas. Sequi reiciendis totam
-          expedita ab!
-        </p>
+          <h4>Woodland lager</h4>
+          <img
+            src="/images/onur-binay-zfatWM_FbM4-unsplash.jpg"
+            alt="Beerlogo5"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            distinctio dolorem natus ab doloremque voluptas at expedita dolores.
+            Minima magni velit sunt sed est voluptas. Sequi reiciendis totam
+            expedita ab!
+          </p>
 
-        <h4>Metro city</h4>
-        <img
-          src="/images/stefan-cosma-uLuPpN5-C0E-unsplash.jpg"
-          alt="Beerlogo6"
-        />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-          distinctio dolorem natus ab doloremque voluptas at expedita dolores.
-          Minima magni velit sunt sed est voluptas. Sequi reiciendis totam
-          expedita ab!
-        </p>
-      </div>
-    </div>
-    <!-- end beer -->
+          <h4>Metro city</h4>
+          <img
+            src="/images/stefan-cosma-uLuPpN5-C0E-unsplash.jpg"
+            alt="Beerlogo6"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            distinctio dolorem natus ab doloremque voluptas at expedita dolores.
+            Minima magni velit sunt sed est voluptas. Sequi reiciendis totam
+            expedita ab!
+          </p>
+        </div>
+      </section>
+      <!-- end beer -->
 
-    <!-- team -->
-    <div>
-      <!-- heading -->
-      <h2>Team</h2>
-      <!-- back to top link -->
-      <a href="" target="_top"> Back to the top</a>
-      <!-- 6 images  -->
-      <div>
-        <img
-          src="/images/ambitious-creative-co-rick-barrett-UoTlkEmUDMQ-unsplash.jpg"
-          alt="Person1"
-        />
-        <img
-          src="/images/andrey-grodz-urOxin6uMjs-unsplash.jpg"
-          alt="Person2"
-        />
-        <img
-          src="/images/andriyko-podilnyk-gEV78HNZOqQ-unsplash.jpg"
-          alt="Person3"
-        />
-        <img
-          src="/images/aurelien-lemasson-theobald-JhfNg-xVuCE-unsplash.jpg"
-          alt="Person4"
-        />
-        <img src="/images/chino-rocha-X52UzrosyDs-unsplash.jpg" alt="Person5" />
-        <img src="/images/foo-visuals-PWhQFg_MEUs-unsplash.jpg" alt="Person6" />
-      </div>
-    </div>
-    <!-- end team -->
+      <!-- team -->
+      <section>
+        <!-- heading -->
+        <h2>Team</h2>
+        <!-- back to top link -->
+        <a href="" target="_top" class="links"> Back to the top</a>
+        <!-- 6 images  -->
+        <div>
+          <img
+            src="/images/ambitious-creative-co-rick-barrett-UoTlkEmUDMQ-unsplash.jpg"
+            alt="Person1"
+          />
+          <img
+            src="/images/andrey-grodz-urOxin6uMjs-unsplash.jpg"
+            alt="Person2"
+          />
+          <img
+            src="/images/andriyko-podilnyk-gEV78HNZOqQ-unsplash.jpg"
+            alt="Person3"
+          />
+          <img
+            src="/images/aurelien-lemasson-theobald-JhfNg-xVuCE-unsplash.jpg"
+            alt="Person4"
+          />
+          <img
+            src="/images/chino-rocha-X52UzrosyDs-unsplash.jpg"
+            alt="Person5"
+          />
+          <img
+            src="/images/foo-visuals-PWhQFg_MEUs-unsplash.jpg"
+            alt="Person6"
+          />
+        </div>
+      </section>
+      <!-- end team -->
+    </main>
 
     <!-- footer -->
     <footer>

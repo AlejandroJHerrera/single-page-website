@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: black;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 100;
+  margin-left: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+li:last-child {
+  margin-right: 10px;
+}
+
+#first_article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(/images/fabio-alves-_fLgxjACz5k-unsplash.jpg);
+  height: 100vh;
+  color: white;
+}
+
+.article-front {
+  position: absolute;
+  z-index: 1;
+}
+
+#first_article h1 {
+  font-size: 5em;
+}
+
+#first_article h2 {
+  font-size: 3em;
+}
+#first_article .btn {
+  background-color: rgb(24, 22, 22);
+  color: white;
+  width: 23%;
+  font-size: 1.5em;
+  padding: 15px;
+}
+
+.btn {
+  border-color: 3px rgb(176, 171, 171);
+}
+
+#location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#location h1 {
+  font-size: 3em;
+  font-weight: 800;
+}
+
+.links {
+  margin-bottom: 20px;
+}
+
+.maps {
+  width: 100vw;
+  height: 50vh;
+}
