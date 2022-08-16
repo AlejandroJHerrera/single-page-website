@@ -10,6 +10,10 @@ header {
   background-color: black;
 }
 
+.hamburger {
+  display: none;
+}
+
 h1 {
   font-size: 20px;
   font-weight: 100;
@@ -149,8 +153,8 @@ header .links {
 }
 
 .beer-card img {
-  height: 30vh;
-  width: 50%;
+  height: 40vh;
+  width: 90%;
 }
 
 .beer-card {
@@ -162,7 +166,7 @@ header .links {
 
 .beer-card p {
   width: 50%;
-  font-size: 1em;
+  font-size: 1.7em;
   font-weight: 400;
 }
 
@@ -257,4 +261,199 @@ header .links {
     font-size: 1em;
     padding: 10px;
   }
-} ;
+  .maps {
+    width: 100vw;
+    height: 40vh;
+  }
+  #location p {
+    font-size: 1.5em;
+    margin: 10px;
+  }
+  .gallery-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+  }
+
+  .gallery-card img {
+    height: 40vh;
+    width: 100%;
+  }
+  .gallery-card > img:last-child {
+    grid-column: auto;
+    height: 40vh;
+  }
+
+  .beer-card img {
+    height: 25vh;
+    width: 75%;
+  }
+
+  .beer-card p {
+    width: 50%;
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+
+  .team-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .team-card img {
+    height: 25vh;
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 777px) {
+  #first_article h1 {
+    font-size: 3.5em;
+  }
+
+  #first_article h2 {
+    font-size: 2.5em;
+  }
+
+  .maps {
+    width: 80vw;
+    height: 60vh;
+  }
+
+  #location p {
+    font-size: 1.5em;
+    margin: 20px 20px 0px 30px;
+  }
+
+  .gallery-card img {
+    height: 35vh;
+    width: 100%;
+  }
+  .gallery-card > img:last-child {
+    grid-column: auto;
+    height: 35vh;
+  }
+
+  .beer-card img {
+    height: 25vh;
+    width: 75%;
+  }
+
+  .beer-card p {
+    width: 50%;
+    font-size: 1.2em;
+    font-weight: 520;
+  }
+}
+
+@media all and (max-width: 470px) {
+  #first_article h1 {
+    font-size: 2.5em;
+  }
+
+  #first_article h2 {
+    font-size: 2em;
+  }
+
+  #first_article .btn {
+    background-color: rgb(24, 22, 22);
+    color: white;
+    width: 26%;
+    font-size: 0.7em;
+    padding: 10px;
+  }
+
+  .maps {
+    width: 80vw;
+    height: 60vh;
+  }
+
+  #location p {
+    font-size: 1em;
+    margin: 20px 20px 0px 30px;
+  }
+
+  .gallery-card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+
+  .gallery-card img {
+    height: 40vh;
+  }
+  .beer-card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .beer-card img {
+    height: 25vh;
+    width: 90%;
+  }
+
+  .team-card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .copyright {
+    font-size: 16px;
+    margin-bottom: 1vh;
+  }
+
+  .address {
+    font-size: 16px;
+    margin-bottom: 1vh;
+  }
+
+  .phone {
+    font-size: 17px;
+    text-decoration: underline;
+    text-decoration-color: rgb(194, 194, 35);
+    color: rgb(194, 194, 35);
+    margin-bottom: 1vh;
+  }
+
+  .lema {
+    font-size: 16px;
+    margin-bottom: 1vh;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .hamburger {
+    position: relative;
+    display: inline-block;
+  }
+
+  .hamburger-content {
+    display: none;
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+  }
+
+  .hamburger:hover .hamburger-content {
+    display: block;
+    /* animation: popup .5s ease-in-out both; */
+  }
+
+  .hamburger span {
+    transition: transform 0.5s;
+    -webkit-transition: -webkit-transform 0.5s;
+    display: block;
+    transform: rotate(90deg);
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .hamburger:hover span {
+    transition: transform 0.5s;
+    -webkit-transition: -webkit-transform 0.5s;
+    display: inline-block;
+    transform: rotate(180deg);
+  }
+}
