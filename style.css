@@ -36,9 +36,10 @@ li:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  text-align: center;
   background-image: url(/images/fabio-alves-_fLgxjACz5k-unsplash.jpg);
-  height: 100vh;
+  background-attachment: fixed;
+  height: 75vh;
   color: white;
 }
 
@@ -85,4 +86,31 @@ li:last-child {
 .maps {
   width: 100vw;
   height: 50vh;
+}
+
+#location p {
+  font-size: 1.5em;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.gallery-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 100%;
+}
+
+.gallery-card > img:nth-of-type(4) {
+  grid-column: 1 / -1;
+}
+
+.gallery-card img {
+  height: 40vh;
+  width: 32vw;
 }
