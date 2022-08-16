@@ -19,14 +19,14 @@ h1 {
   font-weight: 100;
   margin-left: 10px;
 }
-
 ul {
-  display: flex;
-  justify-content: space-between;
   list-style: none;
   padding: 0%;
 }
-
+.desktop ul {
+  display: flex;
+  justify-content: space-between;
+}
 li {
   margin-left: 10px;
   font-size: 20px;
@@ -425,35 +425,31 @@ header .links {
   }
 
   .hamburger {
-    position: relative;
     display: inline-block;
   }
 
   .hamburger-content {
     display: none;
-    position: absolute;
-    right: 10px;
+    position: relative;
+    right: 0;
+    padding: 0;
     z-index: 1;
   }
 
   .hamburger:hover .hamburger-content {
     display: block;
-    /* animation: popup .5s ease-in-out both; */
+    position: absolute;
+    background-color: black;
   }
 
   .hamburger span {
     transition: transform 0.5s;
-    -webkit-transition: -webkit-transform 0.5s;
-    display: block;
-    transform: rotate(90deg);
+    display: inline-block;
     font-size: 20px;
     margin-right: 10px;
   }
 
   .hamburger:hover span {
-    transition: transform 0.5s;
-    -webkit-transition: -webkit-transform 0.5s;
-    display: inline-block;
-    transform: rotate(180deg);
+    transform: rotate(90deg);
   }
 }
